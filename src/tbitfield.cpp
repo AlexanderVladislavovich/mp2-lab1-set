@@ -234,8 +234,7 @@ ostream &operator<<(ostream &ostr, const TBitField &bf) // вывод
 {
   for (int i = 0; i < bf.GetLength(); i++)
   {
-    int a = bf.GetBit(i);
-    ostr << a;
+    ostr << bf.GetBit(i);
   }
   ostr << "\n";
 
